@@ -1,9 +1,7 @@
 package com.justynsoft.da.typesafe.config;
 
 import com.typesafe.config.Optional;
-import lombok.Data;
 
-@Data
 public class ExtractConfig {
     public String directory;
 

@@ -1,17 +1,9 @@
 package com.justynsoft.da.typesafe.config;
 
 import com.typesafe.config.Optional;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import java.util.List;
 
-@Data
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
 public class SparkConfig {
 
     private String home;

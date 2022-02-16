@@ -1,4 +1,4 @@
-package justynsoft.da.tester;
+package com.justynsoft.da.tester;
 
 public class JobConfig {
     public String jobName;

@@ -21,7 +21,6 @@ public class SimleConfigBuilder {
 //        this.extractConfig = ConfigBeanFactory.create(config, ExtractConfig.class);
         this.sparkConfig = ConfigBeanFactory.create(config, SparkConfig.class);
 //        System.out.println(config.getString("sparkConfig.home"));
-        System.out.println(sparkConfig.getHome());
 
         try {
             ObjectMapper mapper = new ObjectMapper();
